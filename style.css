@@ -1,0 +1,106 @@
+/* стиль заголовка */
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* стиль основного тексту */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 0 20px 0;
+  }
+  
+  /* стиль списку */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* стиль елементу списку */
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+  }
+  
+  /* стиль заголовка списку */
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  /* стиль номерованого списку */
+  ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* стиль елементу номерованого списку */
+  ol li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+  }
+  
+  /* стиль зображення */
+  img {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* стиль підпису зображення */
+  figcaption {
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* стиль посилань */
+  a {
+    color: #0070c0;
+    text-decoration: none;
+  }
+  
+  /* стиль посилань при наведенні */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* стиль футера */
+  footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* стиль списку з контактами */
+  ul.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* стиль елементу списку з контактами */
+  ul.contact-list li {
+    margin: 10px;
+  }
+  
+  /* стиль зображень іконок контактів */
+  ul.contact-list li img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  body { 
+    background-color: #bb21e1; 
+    
+   }
